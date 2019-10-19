@@ -1,0 +1,60 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="40dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Best Locations"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/bestPlacesRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+         <TextView
+            android:layout_marginLeft="30dp"
+            android:text="Best Meals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/bestMealsRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+     <LinearLayout
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+       <TextView
+            android:id="@+id/optionTextView"
+            android:textSize="22sp"
+            android:text="Choose Option"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"/>
+        <ImageView
+            android:id="@+id/sortDownImageView"
+            android:src="@drawable/sortdown"
+            android:layout_width="25dp"
+            android:layout_height="30dp"/>
+
+    </LinearLayout>
+</LinearLayout>
